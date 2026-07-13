@@ -1,0 +1,16 @@
+{
+  "markdown": "ROADMAP.md",
+  "staleDays": 14,
+  "requireSpec": false,
+  "autoAdvance": false,
+  "compact": {
+    "keepRecent": 5,
+    "pin": []
+  },
+  "verification": {
+    "allowPrefixes": []
+  },
+  "agent": {
+    "command": null
+  }
+}

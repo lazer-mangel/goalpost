@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "current": null,
+  "milestones": [],
+  "tasks": [
+    {
+      "id": "hello-goalpost",
+      "name": "Run the goalpost loop once",
+      "status": "done",
+      "depends_on": [],
+      "success_criteria": [
+        "you claimed this task, did something small, and closed it through the verification gate"
+      ],
+      "verification": [
+        "node -e \"process.exit(0)\""
+      ],
+      "result": "goalpost scaffolded itself: 78 tests green via node --test",
+      "started_at": null,
+      "updated_at": "2026-07-13T22:17:21.146Z",
+      "waiting_on": null
+    },
+    {
+      "id": "readme",
+      "name": "Write the README with quickstart, loop diagram, and autonomy ladder",
+      "status": "done",
+      "depends_on": [],
+      "success_criteria": [
+        "a stranger can init, run the loop, and wire an agent from the README alone"
+      ],
+      "verification": [
+        "node -e \"process.exit(require('fs').existsSync('README.md') ? 0 : 1)\""
+      ],
+      "result": "README written: quickstart, loop command table, autonomy ladder, schema and config reference, CI gate",
+      "started_at": null,
+      "updated_at": "2026-07-13T22:18:32.504Z",
+      "waiting_on": null
+    },
+    {
+      "id": "github-release",
+      "name": "Publish public GitHub repo lazer-mangel/goalpost",
+      "status": "todo",
+      "depends_on": [
+        "readme"
+      ],
+      "success_criteria": [
+        "repo is public with CI green on main"
+      ],
+      "verification": [
+        "node --test test/"
+      ],
+      "result": null,
+      "started_at": null,
+      "updated_at": null,
+      "waiting_on": null
+    },
+    {
+      "id": "npm-publish",
+      "name": "Publish goalpost v0.1.0 to npm",
+      "status": "todo",
+      "depends_on": [
+        "github-release"
+      ],
+      "success_criteria": [
+        "npx goalpost@latest init works in a fresh directory"
+      ],
+      "verification": [
+        "npm pack --dry-run"
+      ],
+      "result": null,
+      "started_at": null,
+      "updated_at": null,
+      "waiting_on": null
+    }
+  ]
+}

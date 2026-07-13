@@ -1,0 +1,37 @@
+{
+  "name": "goalpost",
+  "version": "0.1.0",
+  "description": "A goal-contract roadmap loop for agentic development: verification-gated tasks, a single live pointer, and an agent-agnostic autonomy runner. No dependencies.",
+  "type": "module",
+  "bin": {
+    "goalpost": "bin/goalpost.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "assets"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "roadmap",
+    "agent",
+    "autonomy",
+    "claude-code",
+    "codex",
+    "verification",
+    "goal-contract",
+    "cli",
+    "task"
+  ],
+  "author": "Lazer Mangel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazer-mangel/goalpost.git"
+  }
+}
