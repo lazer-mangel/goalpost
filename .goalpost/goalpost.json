@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "current": null,
+  "current": "npm-publish",
   "milestones": [],
   "tasks": [
     {
@@ -38,7 +38,7 @@
     {
       "id": "github-release",
       "name": "Publish public GitHub repo lazer-mangel/goalpost",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "readme"
       ],
@@ -46,11 +46,11 @@
         "repo is public with CI green on main"
       ],
       "verification": [
-        "node --test test/"
+        "node --test test/*.test.mjs"
       ],
-      "result": null,
-      "started_at": null,
-      "updated_at": null,
+      "result": "public at github.com/lazer-mangel/goalpost, CI green on main across node 18/20/22 ubuntu+macos",
+      "started_at": "2026-07-13T22:53:14.832Z",
+      "updated_at": "2026-07-13T22:53:18.452Z",
       "waiting_on": null
     },
     {

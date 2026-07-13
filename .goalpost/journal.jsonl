@@ -5,3 +5,6 @@
 {"ts":"2026-07-13T22:17:21.292Z","event":"task_added","task":"npm-publish"}
 {"ts":"2026-07-13T22:17:21.342Z","event":"pointed","task":"readme"}
 {"ts":"2026-07-13T22:18:32.505Z","event":"done","task":"readme","result":"README written: quickstart, loop command table, autonomy ladder, schema and config reference, CI gate"}
+{"ts":"2026-07-13T22:53:14.832Z","event":"claimed","task":"github-release"}
+{"ts":"2026-07-13T22:53:18.453Z","event":"done","task":"github-release","result":"public at github.com/lazer-mangel/goalpost, CI green on main across node 18/20/22 ubuntu+macos"}
+{"ts":"2026-07-13T22:53:18.453Z","event":"pointed","task":"npm-publish","via":"advance"}
