@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "current": "npm-publish",
+  "current": null,
   "milestones": [],
   "tasks": [
     {
@@ -56,7 +56,7 @@
     {
       "id": "npm-publish",
       "name": "Publish goalpost v0.1.0 to npm",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "github-release"
       ],
@@ -66,9 +66,9 @@
       "verification": [
         "npm pack --dry-run"
       ],
-      "result": null,
+      "result": "goalpost@0.1.0 live on npm; fresh-dir npx init + full loop smoke test passed from the registry",
       "started_at": null,
-      "updated_at": null,
+      "updated_at": "2026-07-13T23:08:43.963Z",
       "waiting_on": null
     }
   ]

@@ -8,3 +8,4 @@
 {"ts":"2026-07-13T22:53:14.832Z","event":"claimed","task":"github-release"}
 {"ts":"2026-07-13T22:53:18.453Z","event":"done","task":"github-release","result":"public at github.com/lazer-mangel/goalpost, CI green on main across node 18/20/22 ubuntu+macos"}
 {"ts":"2026-07-13T22:53:18.453Z","event":"pointed","task":"npm-publish","via":"advance"}
+{"ts":"2026-07-13T23:08:43.963Z","event":"done","task":"npm-publish","result":"goalpost@0.1.0 live on npm; fresh-dir npx init + full loop smoke test passed from the registry"}
