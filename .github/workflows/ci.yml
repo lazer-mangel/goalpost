@@ -16,6 +16,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-      - run: node --test test/
+      - run: node --test test/*.test.mjs
       - name: dogfood check
         run: node bin/goalpost.mjs check
